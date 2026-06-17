@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio | OOP Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <header>
+        <div class="container">
+            <h1>⚡ Core Gadget Hub</h1>
+            <p>Engineered with HTML, CSS, & Object-Oriented JavaScript</p>
+        </div>
+    </header>
+
+
+    <main class="container">
+        <!-- Responsive Product Grid -->
+        <section class="products-grid">
+            <div class="product-card">
+                <h3>Developer Keyboard</h3>
+                <p class="price">₦45,000</p>
+                <button class="add-btn" data-id="1" data-name="Developer Keyboard" data-price="45000">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <h3>Ergonomic Mouse</h3>
+                <p class="price">₦25,000</p>
+                <button class="add-btn" data-id="2" data-name="Ergonomic Mouse" data-price="25000">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <h3>Noise Cancelling Headphones</h3>
+                <p class="price">₦85,000</p>
+                <button class="add-btn" data-id="3" data-name="NC Headphones" data-price="85000">Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- Live OOP Calculator Display -->
+        <section class="cart-section">
+            <h2>🛒 Interactive Shopping Cart (OOP Data Model)</h2>
+            <div id="cart-items">
+                <p class="empty-msg">Your cart is empty. Add gadgets above!</p>
+            </div>
+            <hr>
+            <div class="cart-summary">
+                <p>Subtotal: <span id="subtotal">₦0</span></p>
+                <p>VAT / Tax (7.5%): <span id="tax">₦0</span></p>
+                <h3>Total Order Value: <span id="total-price">₦0</span></h3>
+                <button id="clear-btn" class="clear-btn">Clear Cart</button>
+            </div>
+        </section>
+    </main>
+
+        <footer>
+        <p>&copy; 2026 Developer Portfolio | All Rights Reserved</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
